@@ -18,16 +18,20 @@
 
 
   <div class="container">
-    <h1 class="text-light text-center m-4">Final Accurracy </h1>
+    <h1 class="text-light text-center m-4">Final Result </h1>
   </div>
 
   <div class="card  mt-5 rounded" style="width: 25rem; height: 25rem; left: 28rem;">
     <img src="../static/foot1.jpeg" class="card-img-top" alt="..." style="height: 15rem;">
     <div class="card-body">
-      <h5 class="card-title text-center  fw-bold text-primary"> Market Value Prediction of Football player</h5>
+      <h5 class="card-title text-center  fw-bold text-dark"> Market Value Prediction
+        for
+      </h5>
     </div>
     <ul class="list-group list-group-flush  text-center">
-      <li class="list-group-item fw-bold text-success display-4">{{value}}</li>
+      <li class="list-group-item fw-bold text-primary display-6"> {{value[0]}}</li>
+      <li class="list-group-item fw-bold text-success display-4">€ {{value[1]}}</li>
+
 
     </ul>
 
